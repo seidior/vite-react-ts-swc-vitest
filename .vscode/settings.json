@@ -1,0 +1,53 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.tabSize": 4
+  },
+  "cSpell.enabled": false,
+  "cSpell.words": ["businessnjgovnavigator"],
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.formatDocument",
+    "source.fixAll.eslint"
+  ],
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.py": "test_$(capture).py",
+    "*.ts": "$(capture).test.ts, $(capture).test.tsx",
+    "*.tsx": "$(capture).test.ts, $(capture).test.tsx"
+  },
+  "files.exclude": {
+    "**/.next": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "indentRainbow.indicatorStyle": "light",
+  "jest.runMode": "deferred",
+  "terminal.integrated.scrollback": 10000,
+  "todo-tree.filtering.excludeGlobs": ["**/dist", "**/.next", "**/compiled"],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "TODO-APP"
+  ],
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.surveys.enabled": false
+}
